@@ -17,7 +17,7 @@ def pdf_to_text_pypdf2(file_path, output_txt):
         print(f"Error: {e}")
 
 # Uso:
-pdf_to_text_pypdf2("Alvaro CV.pdf", "AlvaroCV.txt")
+pdf_to_text_pypdf2("somefile.pdf", "somefile.txt")
 
 
 #para convertir los pdf en txt
