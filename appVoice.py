@@ -1,10 +1,10 @@
 import os
 from gtts import gTTS
 
-text = "Buenos dias hoy gano la U"
+text = "hello world"
 
 output = gTTS(text, lang= 'es', slow=False)
-output.save("output.mp3")
+output.save("helloworld.mp3")
 
-os.system('start output.mp3')
+os.system('start helloworld.mp3')
 
