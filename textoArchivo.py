@@ -1,12 +1,12 @@
 from gtts import gTTS
 import os
 
-with open ('ella2.txt', 'r') as file:
+with open ('somefile.txt', 'r') as file:
            text = file.read()
 
 output = gTTS(text, lang= 'es', slow=False)
-output.save("ella2.mp3")
+output.save("somefile.mp3")
 
-os.system('start ella2.mp3') #para ejecutar el nombre del archivo
+os.system('start somefile.mp3') #para ejecutar el nombre del archivo
 
 
