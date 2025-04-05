@@ -1,7 +1,7 @@
 import docx2txt as d2t
 
-dFile = "ella2.docx"
-tFile = "ella.txt"
+dFile = "somefile.docx"
+tFile = "somefile.txt"
 
 doc = d2t.process(dFile)
 
